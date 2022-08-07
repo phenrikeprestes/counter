@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background-color: #A2B5BB;
+
+}
+
+div{
+    width: 400px;
+    border: 10px solid grey;
+    padding: 0;
+    margin: auto;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.increment{
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    background-color: green ;
+    color: white;
+    margin: 5px;
+}
+
+.decrement{
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    background-color: red ;
+    color: white;
+    margin: 5px;
+}
+
+.increment:hover{
+    background-color: white;
+    color: green;
+}
+
+.decrement:hover{
+    background-color: white;
+    color: red;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+#counting{
+    color: white;
+    font-size: 40px;
+}
